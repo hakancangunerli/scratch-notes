@@ -1,5 +1,3 @@
-import turtle 
-
 print('the prime numbers between 1 and 20 are')
 for num in range(1,20 + 1):
    if num > 1:
