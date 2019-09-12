@@ -1,10 +1,12 @@
-import turtle
-  
-t = turtle.Turtle()
+import pygame 
+from turtle import* 
 
-for i in range(100):
+distance=0
+for x in range(0,100):
+  distance += 0.1
+  forward(distance)
+  right(12)
   
-  t.circle(10+i, 100)
   
   # change the degree by i, 100 how frequent it is.
 
